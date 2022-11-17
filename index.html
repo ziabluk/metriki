@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asesst/css/style.css">
+</head>
+<body>
+    <button id="button43" onclick="func43()">43 прокрутить страницу до самого низа</button><br>
+    <div id="elem1">elem1</div>
+    <div id="elem2" class="www">elem2</div>
+    <div id="elem3" class="www">elem3</div>
+    <div id="elem4">elem4</div>
+    <div id="elem5" class="www">elem5</div>
+    <div id="elem6" class="www xxxx">elem6</div>
+    <div id="elem7">elem7</div>
+    <div id="elem8">elem8</div>
+    <div id="elem9">elem9</div>
+    <div id="elem10">elem10</div>
+    <div id="elem11">elem11</div>
+    <div id="elem12"><p id="elem12q">elem12</p></div>
+    <button onclick="delet()">Нажмите чтобы удалить</button>
+    <ol id="elem13">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <button onclick="delit()">Нажмите чтобы удалить</button><br>
+    <button id="elem14" onclick="deliiit()">elem14</button>
+    <ol id="elem15">
+        <li id="elem15.1" onclick="document.getElementById('elem15.1').remove()">Coffee</li>
+        <li id="elem15.2" onclick="document.getElementById('elem15.2').remove()">Tea</li>
+        <li id="elem15.3" onclick="document.getElementById('elem15.3').remove()">Milk</li>
+    </ol>
+    <div id="block">
+        <input type="text" id="input">
+        <button id="elem16" onclick="bob()">Скопировать</button>
+    </div>
+    <button onclick="alert(tagName)">nazmi na menia</button>
+    <button onclick="alert(tagName.toLowerCase())">nazmi na menia</button>
+    <button id="button1" class="www" onclick="document.getElementById('button1').classList.add(tagName.toLowerCase())">Нажми на меня</button>
+    <ol id="ol" onclick="document.getElementById('ol').insertAdjacentHTML('afterend', '<li>пункт</li>')">
+        Нажми на меня
+    </ol>
+    <ul id="ul" onclick="ppp()">
+        Нажми на меня
+    </ul>
+    <div id="elem17">
+        <div class="elemm1">Первый</div>
+        <div class="elemm2">Второй</div>
+        <div class="elemm3">Третий</div>
+    </div><br>
+    <div id="elem18">
+        <div class="elem_1">Первый</div>
+        <div class="elem_2">Первый</div>
+        <div class="elem_3">Третий</div>
+    </div><br>
+    <div id="elem19">
+        <div id="elem_" value="Первый">Первый</div>
+        <div id="elem_" value="Второй">Первый</div>
+        <div id="elem_" value="Третий">Первый</div>
+    </div><br>
+    <div id="elem201">первый</div>
+    <div id="elem202">второй</div>
+    <br>
+    <div id="elem211">первый</div>
+    <div id="elem212">второй</div>
+    <br>
+    <div id="elem221">первый</div>
+    <div id="elem222">второй</div>
+    <div id="elem223">третий</div>
+    <br>
+    <div id="elem23">
+        родитель
+        <div id="elem23mini">ищет родителя</div>
+    </div>
+    <div id="elem24">
+        родитель
+        <div id="elem24mini">ищет родителя
+            <div id="elem24baby">ищет родителей</div>
+        </div>
+    </div>
+    <div id="elem25" class="elem25" onclick="elem25f()">25</div>
+    <div id="elem26" class="elem26" onclick="elem26f()">26</div>
+    <div id="elem27" class="elem27" onclick="elem27f()">27</div>
+    <div id="elem28" class="elem28" onclick="elem28f()">28</div>
+    <div id="elem29" class="elem29" onclick="elem29f()">29</div>
+    <div id="elem30" class="elem30" onclick="elem30f()">30</div>
+    <div id="elem31" class="elem31" onclick="elem31f()">31</div>
+    <div id="elem32">32 Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique et aperiam, molestias, doloremque consequatur natus molestiae laboriosam sit fugit, libero voluptate illo numquam beatae saepe expedita commodi! Sapiente, esse nam!</div>
+    <button id="button32" onclick="alert(document.getElementById('elem32').scrollHeight)">Познай тайну высоты элемента</button>
+    <div id="elem33">33 Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique et aperiam, molestias, doloremque consequatur natus molestiae laboriosam sit fugit, libero voluptate illo numquam beatae saepe expedita commodi! Sapiente, esse nam!</div>
+    <button id="button33" onclick="alert(document.getElementById('elem33').scrollLeft)">Познай тайну высоты элемента</button>
+    <div id="elem36">36 Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique et aperiam, molestias, doloremque consequatur natus molestiae laboriosam sit fugit, libero voluptate illo numquam beatae saepe expedita commodi! Sapiente, esse nam!</div>
+    <button id="button36" onclick="alert(document.getElementById('elem36').scrollHeight)">Познай тайну высоты элемента</button>
+    <div id="elem37">37 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam non accusantium culpa modi! Earum adipisci, quasi quia facilis suscipit iste. Illo impedit labore perspiciatis reprehenderit blanditiis officia, facere assumenda quisquam.</div>
+    <button id="button37" onclick="alert(document.getElementById('elem37').scrollWidth)">Познай тайну ширины элемента</button>
+    <div id="elem34">34 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam non accusantium culpa modi! Earum adipisci, quasi quia facilis suscipit iste. Illo impedit labore perspiciatis reprehenderit blanditiis officia, facere assumenda quisquam.</div>
+    <button id="button34" onclick="scroll34()">прокрутите его до позиции 100px вверх</button>
+    <div id="elem38">38 Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam non accusantium culpa modi! Earum adipisci, quasi quia facilis suscipit iste. Illo impedit labore perspiciatis reprehenderit blanditiis officia, facere assumenda quisquam.</div>
+    <input type="submit" id="button38" onclick="func38()"><br>
+    <button id="button39" onclick="func39()">39 По нажатию на кнопку узнайте на сколько страница прокручена по вертикали</button><br>
+    <button id="button40" onclick="func40()">40 По нажатию на кнопку узнайте на сколько страница прокручена по горизантали</button><br>
+    <button id="button41" onclick="func41()">41 По нажатию на кнопку страница прокрутится в точку 300px слева, 500px сверху</button><br>
+    <button id="button42" onclick="func42()">42 По нажатию на кнопку страница прокрутится на 300px вниз от текущего положения. </button><br>
+    <button id="button44" onclick="func44()">44 По нажатию на кнопку прокрутится страницу на 400px от текущего положения. </button><br>
+    <div id="elem45" onclick="func45()">45</div>
+    <script src="./asesst/js/main.js"></script>
+</body>
+</html>
